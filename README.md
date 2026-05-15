@@ -4,7 +4,7 @@ Professional website for Change Capability - Leadership Renewal, Swift Trust & S
 
 ## About
 
-Change Capability partners with leaders to move faster and smarter through change — strengthening leader renewal and wellbeing, building swift trust, and bringing out the best in people through sustainable adaptability.
+We partner with leaders to build high performance sustainability — the kind that strengthens people, adaptability, culture and results. Using approaches grounded in change psychology, resilience and neuroscience, we enable you to move faster and smarter through change, build swift trust and bring out the best in people.
 
 ## Services
 
