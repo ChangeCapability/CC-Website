@@ -65,6 +65,118 @@
             font-size: 14px;
             margin-bottom: 20px;
         }
+        /* PROGRAMS SECTION */
+.programs-section {
+    padding: 5rem 0;
+    background: var(--light);
+}
+
+.programs-grid {
+    display: grid;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.program-card {
+    background: white;
+    border-left: 4px solid var(--accent);
+    padding: 2.5rem;
+    transition: all 0.3s ease;
+}
+
+.program-card:hover {
+    transform: translateX(10px);
+    box-shadow: 0 10px 40px rgba(54, 90, 196, 0.1);
+}
+
+.program-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 1rem;
+}
+
+.program-subtitle {
+    font-size: 1.125rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.program-card p {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    color: var(--dark);
+}
+
+.program-variants {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.variant {
+    background: var(--light);
+    padding: 1.5rem;
+    border-left: 2px solid var(--primary);
+}
+
+.variant h4 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.75rem;
+}
+
+.variant p {
+    font-size: 0.9375rem;
+    margin: 0;
+}
+
+/* CERTIFICATIONS */
+.certifications-wrapper {
+    margin-top: 4rem;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.cert-card {
+    background: white;
+    padding: 2rem;
+    border-top: 3px solid var(--primary);
+}
+
+.cert-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.cert-card p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .program-variants,
+    .cert-grid {
+        grid-template-columns: 1fr;
+    }
+}
     </style>
 </head>
 <body>    
